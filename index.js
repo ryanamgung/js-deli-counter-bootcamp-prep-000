@@ -25,5 +25,7 @@ function currentLine(katzDeli)
     return "The line is currently empty."  
   }
   
+  var name = katzDeli[0]
+  
   return ("The line is currently: " + katzDeli)
 }
