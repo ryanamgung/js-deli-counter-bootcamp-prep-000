@@ -27,5 +27,5 @@ function currentLine(katzDeli)
   
   var name = katzDeli[0]
   katzDeli.splice(0, 1)
-  return ("The line is currently: " + katzDeli)
+  return ("The line is currently: " + name)
 }
