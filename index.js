@@ -6,7 +6,7 @@ function takeANumber(katzDeli, name)
   {
     if(katzDeli[i] === name)
     {
-      return ("Welcome" + katzDeli[i] + ". You are number " + (i+1) + " in line.")
+      return ("Welcome" + katzDeli[length+1] + ". You are number " + (i+1) + " in line.")
     }
   }
 }
