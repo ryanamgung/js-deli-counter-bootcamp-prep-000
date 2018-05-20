@@ -15,7 +15,7 @@ function nowServing(katzDeli)
   
   var firstPerson = katzDeli[0]
   katzDeli.shift()
-  return firstPerson
+  return "Currently serving " + firstPerson + "."
 }
 
 function currentLine(katzDeli)
