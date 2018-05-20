@@ -11,7 +11,23 @@ function takeANumber(katzDeli, name)
   }
 }
 
-function nowServing()
+function nowServing(katzDeli)
 {
-  if()
+  if(katzDeli.length === 0)
+  {
+    return "There is nobody waiting to be served!"
+  }
+  
+  var firstPerson = katzDeli[0]
+  katzDeli.shift()
+  return firstPerson
+}
+
+function currentLine(katzDeli)
+{
+  if(katzDeli.length === 0)
+  {
+    return "The line is currently empty."  
+  }
+  return ("The line is currently: " + katzDeli)
 }
