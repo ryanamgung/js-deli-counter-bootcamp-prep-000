@@ -25,7 +25,13 @@ function currentLine(katzDeli)
     return "The line is currently empty."  
   }
   
-  var name = katzDeli[0]
-  katzDeli.splice()
-  return ("The line is currently: " + katzDeli)
+  for(let i = 0; i < katzDeli.length; i++)
+  {
+    line 
+  }
+      for(var i = 0; i < x.length; i++) {
+        line += (i + 1) + ". " + x[i] + ", "
+      }
+      line = line.slice(0, line.length-2)
+      return "The line is currently: " + line
 }
