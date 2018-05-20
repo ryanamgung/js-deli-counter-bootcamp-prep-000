@@ -26,6 +26,6 @@ function currentLine(katzDeli)
   }
   
   var name = katzDeli[0]
-  
+  katzDeli.splice()
   return ("The line is currently: " + katzDeli)
 }
